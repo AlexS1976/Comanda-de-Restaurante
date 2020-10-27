@@ -7,7 +7,7 @@
     tools:context=".PedidoAtivoActivity2">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/valorPedido"
         android:layout_width="281dp"
         android:layout_height="60dp"
         android:layout_marginTop="292dp"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nomeCliente"
         android:layout_width="281dp"
         android:layout_height="60dp"
         android:layout_marginTop="92dp"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/pedidoRecebido"
         android:layout_width="281dp"
         android:layout_height="60dp"
         android:layout_marginTop="200dp"
@@ -42,14 +42,12 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="272dp"
         android:background="@drawable/button_style"
         android:text="Button"
         android:textColor=" #FFD700"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toTopOf="@+id/button"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="@+id/valorPedido" />
 
     <Button
         android:id="@+id/button"
@@ -64,7 +62,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.419"
-        app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/valorPedido"
+        app:layout_constraintTop_toBottomOf="@+id/valorPedido"
         app:layout_constraintVertical_bias="0.09" />
 </androidx.constraintlayout.widget.ConstraintLayout>
